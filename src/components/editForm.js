@@ -5,6 +5,8 @@ import {
   useParams,
   Link,
 } from "react-router-dom";
+//STYLING IMPORTS
+import "../index.css";
 
 //END IMPORTS
 
