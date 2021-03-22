@@ -77,6 +77,7 @@ const EditForm = (props) => {
       <form onSubmit={handleUpdateSubmit}>
         <label htmlFor="firstName">
           <input
+            className="input"
             name="firstName"
             id="firstName"
             placeholder="Enter Your First Name"
@@ -87,6 +88,7 @@ const EditForm = (props) => {
 
         <label htmlFor="lastName">
           <input
+            className="input"
             name="lastName"
             id="lastName"
             placeholder="Enter Your Last Name"
@@ -97,6 +99,7 @@ const EditForm = (props) => {
 
         <label htmlFor="date">
           <input
+            className="input"
             name="date"
             id="date"
             placeholder="Enter The Date You Were Here"
