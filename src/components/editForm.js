@@ -109,7 +109,7 @@ const EditForm = (props) => {
             onChange={handleUpdateChange}
           />
         </label>
-        <button>Submit Update</button>
+        <button className="submitButton">Submit Update</button>
       </form>
     </div>
   );
