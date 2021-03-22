@@ -98,7 +98,7 @@ const App = () => {
               onChange={handleChange}
             />
           </label>
-          <button>Submit to Sign In Sheet</button>
+          <button className="submitButton">Submit to Sign In Sheet</button>
         </form>
         {people.map((person, index) => {
           return (
