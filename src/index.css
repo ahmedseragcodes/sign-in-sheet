@@ -45,6 +45,11 @@ link {
   color: black;
   font-size: 1.6rem;
 }
+.submitButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
 /* MEDIA QUERIES */
 @media (max-width: 650px){
   .frontPageCatchAll {
@@ -59,7 +64,6 @@ link {
     align-items: center;
     text-align: center;
     position: relative;
-    left: 9.5rem;
   }
   .input {
     border-radius: 1rem;
